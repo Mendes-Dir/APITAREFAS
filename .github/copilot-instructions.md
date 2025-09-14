@@ -1,0 +1,7 @@
+- [ ] Projeto Node.js API de tarefas com JWT, REST, GraphQL, Swagger, testes, CI.
+- [ ] Estrutura: /src, /tests, /docs, .github/workflows/test.yml, .gitignore, README.md.
+- [ ] Instalar dependências: express, jsonwebtoken, graphql, apollo-server-express, swagger-ui-express, mocha, chai, supertest, sinon.
+- [ ] Implementar autenticação JWT, endpoints REST e GraphQL, documentação Swagger.
+- [ ] Escrever testes automatizados (Supertest, Mocha, Chai, Sinon).
+- [ ] Configurar pipeline GitHub Actions para rodar testes.
+- [ ] Atualizar README.md e documentação.

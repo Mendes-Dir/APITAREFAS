@@ -1,0 +1,29 @@
+{
+  "name": "apitarefas",
+  "version": "1.0.0",
+  "description": "API Node.js para gerenciamento de tarefas com autenticação JWT, endpoints REST e GraphQL, documentação Swagger, testes automatizados e CI/CD com GitHub Actions.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^11.7.2",
+    "sinon": "^21.0.0",
+    "supertest": "^7.1.4",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7"
+  }
+}
